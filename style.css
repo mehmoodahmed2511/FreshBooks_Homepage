@@ -1,0 +1,160 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    height:100%;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#topbar{
+    height:50px;
+    width:100%;
+    background-color: rgb(7, 156, 255);
+    color:white;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+#navbar{
+    padding: 15px 0px 15px 30px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    height:60px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+}
+#navbar img{
+    height: 25px;
+    width: 130px;
+}
+#container1 p:hover{
+    background-color: rgb(7, 156, 255);
+    color:white;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+#container1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 35px;
+    font-size: 13px;
+}
+#container1 p{
+    margin-right: 10px;
+    cursor: pointer;
+    padding:6px 10px 6px 10px;   
+}
+#container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    font-size: 13px;
+    right:10px;
+}
+#container2 button{
+    margin-right: 15px;
+    cursor: pointer;
+}
+#container2 p{
+    margin-right: 15px;
+    cursor: pointer;
+    padding:6px 10px 6px 10px;   
+}
+#container2 p:hover{
+    background-color: rgb(7, 156, 255);
+    color:white;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+#call-sales{
+    height:30px;
+    width:90px;
+    background-color: rgb(7, 156, 255);
+    color:white;
+    border-radius: 5px;
+    border:none;
+}
+#call-sales:hover{
+    background-color: rgb(61, 177, 255);
+    transition: 0.3s;
+}
+#try-it-free{
+    height:40px;
+    width:100px;
+    background-color: rgb(27, 198, 76);
+    color:rgb(255, 255, 255);
+    border-radius: 5px;
+    border:none
+}
+#try-it-free:hover{
+    background-color: rgb(37, 218, 65);
+    transition: 0.3s;
+}
+#main{
+    height:600px;
+    width:100%;
+    margin-top:0px;
+    background-image: url(background.png);
+    position: absolute;
+    background-position: center;
+    background-size: 1266px 850px;
+}
+#info{
+    height:400px;
+    width:450px;
+    background-color: rgba(57, 85, 147, 0.6);
+    border-radius: 8px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    margin-top:60px;
+    padding: 50px 80px 50px 40px;
+    margin-left: 100px;
+}
+#para{
+    font-size: 14px;
+}
+#agreement{
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    margin-top: 20px;
+    margin-left: 0px;
+    font-size: 12px;
+}
+ #email{
+    background-color: white;
+    height:40px;
+    width:250px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border:none;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+#info #start-trial{
+    height:40px;
+    width:250px;
+    background-color: rgb(7, 156, 255);
+    color:rgb(255, 255, 255);
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+#info #start-trial:hover{
+    background-color: rgb(61, 177, 255);
+    transition: 0.3s;
+    /* border: 1.5px solid rgb(125, 199, 255); */
+}
+#agreement input{
+    height:20px;
+    width:20px;
+    margin-right: 5px;
+}
